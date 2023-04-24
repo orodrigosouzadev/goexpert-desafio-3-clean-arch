@@ -1,0 +1,16 @@
+## List Orders
+GET http://localhost:8000/order HTTP/1.1
+
+###
+
+## Create an Order
+POST http://localhost:8000/order HTTP/1.1
+content-type: application/json
+
+{
+  "id": "New Order",
+  "price": 100.5,
+  "tax": 0.5
+}
+
+###
